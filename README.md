@@ -32,12 +32,20 @@ Lastly, to find the greatest increase and greatest decrease, I create a IF state
 
 Your task is to create a Python script that analyzes the votes and calculates each of the following:
 
-The total number of votes cast
+- The total number of votes cast
 
-A complete list of candidates who received votes
+- A complete list of candidates who received votes
 
-The percentage of votes each candidate won
+- The percentage of votes each candidate won
 
-The total number of votes each candidate won
+- The total number of votes each candidate won
 
-The winner of the election based on popular vote.
+- The winner of the election based on popular vote.
+
+**Thoughts**
+
+To solve the quesitons, the basic idea is to store the candidates list and their conresponding number of votes in two separate lists. It was saved in the order of when they first appears in the dataset. This way, I can call the numbers of votes and their candicates name by the same index, even though they are saved in different lists. 
+
+Similarly, I use a for loop to find the max votes by looping over and compare the current value with the previous value that was stored in the list *max_votes*. 
+
+I also create a part following this to deal with the condition where two different candidates are both winner based on popular vote. 
