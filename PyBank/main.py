@@ -3,8 +3,8 @@ import os
 
 
 # Read in the files
-csvpath = os.path.join("/Users/meixi/Desktop/bootcamp/Homework/HW3/python-challenge/PyBank", "Resources", "budget_data.csv")
-out_bank_path = os.path.join("/Users/meixi/Desktop/bootcamp/Homework/HW3/python-challenge/PyBank","analysis","Bank_analysis.txt")
+csvpath = os.path.join("Resources", "budget_data.csv")
+out_bank_path = os.path.join("analysis","Bank_analysis.txt")
 
 # create the output variables
 counts_of_months = 0

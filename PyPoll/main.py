@@ -1,8 +1,8 @@
 import os
 import csv
 
-csvpath = os.path.join("/Users/meixi/Desktop/bootcamp/Homework/HW3/python-challenge/PyPoll", "Resources", "election_data.csv")
-out_path = os.path.join("/Users/meixi/Desktop/bootcamp/Homework/HW3/python-challenge/PyPoll","analysis","analysis.txt")
+csvpath = os.path.join("Resources", "election_data.csv")
+out_path = os.path.join("analysis","analysis.txt")
 total_votes = 0
 
 with open(csvpath) as election_file:
